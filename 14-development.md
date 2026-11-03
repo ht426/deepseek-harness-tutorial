@@ -7,7 +7,7 @@
 根 [`AGENTS.md`](https://github.com/deepseek-ai/deepseek-harness/blob/master/AGENTS.md#commands) 汇总常用命令；`package.json` 与 `scripts/run-gates.ts` 拥有当前脚本与门清单。选能覆盖改动面的最小检查，而不是无条件跑全套：
 
 ```sh
-pnpm install            # pnpm workspaces, node ^22.19 || >=24
+pnpm install            # pnpm workspaces, node >=24.9 (dsh 0.2.2-alpha.2+)
 pnpm run clean          # 移除构建产物与已删包的安全残留
 pnpm run test           # vitest 单元测试
 pnpm run test:coverage  # CI 覆盖率门：packages/*/*/src 每文件 100%

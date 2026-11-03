@@ -17,7 +17,7 @@
 ## 前置知识
 
 - 会写现代 JavaScript / TypeScript（本教程不重讲语法；需要时可参考官方 [Cordis 教程的 TypeScript 笔记](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cordis-tutorial/index.md#typescript-notes)）。
-- 装了 Node.js（要求 `^22.19 || >=24`）与 pnpm。
+- 装了 Node.js（0.2.2-alpha.2 起要求 `>=24.9`，Node 22 已不支持）与 pnpm。
 - 对「大语言模型调用 + 工具调用」的基本流程有概念即可（没有也不怕，[零基础导读](00-basics.md)会补齐）。
 
 ## 如何使用

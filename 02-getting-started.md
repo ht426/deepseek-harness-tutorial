@@ -4,7 +4,7 @@
 
 ## 2.1 前置要求
 
-- Node.js：支持 `22.19+` 与 `24+`（CI 覆盖 22.19、24、26）。
+- Node.js：要求 `24.9+`（0.2.2-alpha.2 起不再支持 Node 22；CI 应覆盖 24、26）。
 - pnpm：仓库在 `package.json` 里固定 `pnpm@11.7.0`；若 `pnpm --version` 不走 Corepack，先执行 `corepack enable`。
 - Git 2.26+。
 - 可选：一把 DeepSeek API key，用于 Web / headless / ACP 演示与真实 API 的 e2e 测试。
